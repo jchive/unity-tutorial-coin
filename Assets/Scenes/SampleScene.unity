@@ -118,7 +118,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-912612
+  m_Name: pb_Mesh17238
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -259,6 +259,11 @@ Mesh:
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshOptimized: 0
+--- !u!4 &154952855 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4883029379828390, guid: 92bcf3d40a56e82419ecb45f1f9b52bf,
+    type: 2}
+  m_PrefabInternal: {fileID: 474425770}
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -329,7 +334,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-318140
+  m_Name: pb_Mesh17210
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -563,7 +568,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!64 &325026266
 MeshCollider:
@@ -616,7 +621,7 @@ MonoBehaviour:
       localPivot: {x: 2, y: 0.5}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 2100000, guid: a4c78306a959af245aeb3be40061dd57, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -645,7 +650,7 @@ MonoBehaviour:
       localPivot: {x: -3, y: 0.5}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 2100000, guid: a4c78306a959af245aeb3be40061dd57, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -674,7 +679,7 @@ MonoBehaviour:
       localPivot: {x: -2, y: 0.5}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 2100000, guid: a4c78306a959af245aeb3be40061dd57, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -703,7 +708,7 @@ MonoBehaviour:
       localPivot: {x: 3, y: 0.5}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 2100000, guid: a4c78306a959af245aeb3be40061dd57, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -732,7 +737,7 @@ MonoBehaviour:
       localPivot: {x: -2, y: -3}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 2100000, guid: a4c78306a959af245aeb3be40061dd57, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -761,7 +766,7 @@ MonoBehaviour:
       localPivot: {x: 2, y: -3}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 2100000, guid: a4c78306a959af245aeb3be40061dd57, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -862,17 +867,9 @@ MonoBehaviour:
     areaError: 15
   asset_guid: 
   dontDestroyMeshOnDelete: 0
-  m_selectedFaces: 02000000
-  m_SelectedEdges:
-  - x: 8
-    y: 9
-  - x: 10
-    y: 8
-  - x: 9
-    y: 11
-  - x: 11
-    y: 10
-  m_selectedTriangles: 08000000090000000a000000090000000b0000000a000000
+  m_selectedFaces: 
+  m_SelectedEdges: []
+  m_selectedTriangles: 
 --- !u!33 &325026268
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -895,7 +892,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+  - {fileID: 2100000, guid: a4c78306a959af245aeb3be40061dd57, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -938,7 +935,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &325026272
 Animator:
@@ -978,31 +975,31 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 703240593}
     m_Modifications:
     - target: {fileID: 4883029379828390, guid: 92bcf3d40a56e82419ecb45f1f9b52bf, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4883029379828390, guid: 92bcf3d40a56e82419ecb45f1f9b52bf, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4883029379828390, guid: 92bcf3d40a56e82419ecb45f1f9b52bf, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4883029379828390, guid: 92bcf3d40a56e82419ecb45f1f9b52bf, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4883029379828390, guid: 92bcf3d40a56e82419ecb45f1f9b52bf, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4883029379828390, guid: 92bcf3d40a56e82419ecb45f1f9b52bf, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4883029379828390, guid: 92bcf3d40a56e82419ecb45f1f9b52bf, type: 2}
       propertyPath: m_LocalRotation.w
@@ -1010,7 +1007,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4883029379828390, guid: 92bcf3d40a56e82419ecb45f1f9b52bf, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 64734425106461462, guid: 92bcf3d40a56e82419ecb45f1f9b52bf,
         type: 2}
@@ -1022,10 +1019,6 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1238894170}
-    - target: {fileID: 1177028354067668, guid: 92bcf3d40a56e82419ecb45f1f9b52bf, type: 2}
-      propertyPath: m_StaticEditorFlags
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 92bcf3d40a56e82419ecb45f1f9b52bf, type: 2}
   m_IsPrefabParent: 0
@@ -1065,11 +1058,12 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 703240591}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2, y: 3, z: -1}
+  m_LocalPosition: {x: -2, y: 3, z: -0.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 154952855}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1238894170
 Mesh:
@@ -1288,7 +1282,7 @@ MonoBehaviour:
       localPivot: {x: 2, y: 0.5}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 2100000, guid: a4c78306a959af245aeb3be40061dd57, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -1317,7 +1311,7 @@ MonoBehaviour:
       localPivot: {x: -1.0000002, y: 0.49999988}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 2100000, guid: a4c78306a959af245aeb3be40061dd57, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -1346,7 +1340,7 @@ MonoBehaviour:
       localPivot: {x: -2, y: 0.5000003}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 2100000, guid: a4c78306a959af245aeb3be40061dd57, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -1375,7 +1369,7 @@ MonoBehaviour:
       localPivot: {x: 1.0000002, y: 0.49999988}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 2100000, guid: a4c78306a959af245aeb3be40061dd57, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -1404,7 +1398,7 @@ MonoBehaviour:
       localPivot: {x: -2, y: -1.0000002}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 2100000, guid: a4c78306a959af245aeb3be40061dd57, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -1433,7 +1427,7 @@ MonoBehaviour:
       localPivot: {x: 2, y: -1.0000001}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 2100000, guid: a4c78306a959af245aeb3be40061dd57, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -1559,7 +1553,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+  - {fileID: 2100000, guid: a4c78306a959af245aeb3be40061dd57, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1602,7 +1596,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1866982754
 GameObject:
@@ -1622,7 +1616,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 1
   m_IsActive: 1
 --- !u!64 &1866982755
 MeshCollider:
@@ -1675,7 +1669,7 @@ MonoBehaviour:
       localPivot: {x: 2, y: 0.5}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 2100000, guid: a4c78306a959af245aeb3be40061dd57, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -1704,7 +1698,7 @@ MonoBehaviour:
       localPivot: {x: -3, y: 0.5}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 2100000, guid: a4c78306a959af245aeb3be40061dd57, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -1733,7 +1727,7 @@ MonoBehaviour:
       localPivot: {x: -2, y: 0.5}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 2100000, guid: a4c78306a959af245aeb3be40061dd57, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -1762,7 +1756,7 @@ MonoBehaviour:
       localPivot: {x: 3, y: 0.5}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 2100000, guid: a4c78306a959af245aeb3be40061dd57, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -1791,7 +1785,7 @@ MonoBehaviour:
       localPivot: {x: -2, y: -3}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 2100000, guid: a4c78306a959af245aeb3be40061dd57, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -1820,7 +1814,7 @@ MonoBehaviour:
       localPivot: {x: 2, y: -3}
       localSize: {x: 0, y: 0}
       anchor: 9
-    _mat: {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+    _mat: {fileID: 2100000, guid: a4c78306a959af245aeb3be40061dd57, type: 2}
     manualUV: 0
     elementGroup: -1
     textureGroup: -1
@@ -1954,7 +1948,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 55296d1b6ee54e14e8eb4648d4b448ee, type: 2}
+  - {fileID: 2100000, guid: a4c78306a959af245aeb3be40061dd57, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2004,7 +1998,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-16054
+  m_Name: pb_Mesh17252
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
