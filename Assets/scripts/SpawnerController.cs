@@ -26,8 +26,15 @@ public class SpawnerController : MonoBehaviour {
 	}
 	
 	void SpawnObject() {
-		Instantiate(ObjectToSpawn, transform);
+		var coinInstance = Instantiate(ObjectToSpawn, transform);
+
+		var position = coinInstance.transform.localPosition;
+
+		position.x = Random.Range(-2.5f, 2.5f);
+
+		coinInstance.transform.localPosition = position;
 	}
+
 
 }
 
