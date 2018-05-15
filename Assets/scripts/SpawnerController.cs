@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,6 +7,8 @@ public class SpawnerController : MonoBehaviour {
 
 	public GameObject ObjectToSpawn;
 	public Transform SpawnLocation;
+
+	public CoinEvent OnSpawnCoin = new CoinEvent();
 
 	// Use this for initialization
 	void Start () {
@@ -23,6 +26,8 @@ public class SpawnerController : MonoBehaviour {
 	void SpawnObject() {
 		var coin = Instantiate(ObjectToSpawn, transform);
 		coin.transform.position = SpawnLocation.position;
+		
+		OnSpawnCoin.Invoke();
 	}
 
 }

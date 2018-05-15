@@ -19,9 +19,11 @@ public class GameController : MonoBehaviour {
 
 	public void SpendFunds() {
 		funds -= 10;
+		UpdateText();
 	}
 
 	public void AddFunds() {
 		funds += 10;
+		UpdateText();
 	}
 }

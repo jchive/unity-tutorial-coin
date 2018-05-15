@@ -1667,6 +1667,21 @@ MonoBehaviour:
   ObjectToSpawn: {fileID: 1177028354067668, guid: 92bcf3d40a56e82419ecb45f1f9b52bf,
     type: 2}
   SpawnLocation: {fileID: 1083929727}
+  OnSpawnCoin:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1990767800}
+        m_MethodName: SpendFunds
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: CoinEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!4 &703240593
 Transform:
   m_ObjectHideFlags: 0
@@ -1861,7 +1876,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-8070
+  m_Name: pb_Mesh-1044
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -2007,7 +2022,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh-490064
+  m_Name: pb_Mesh12762
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -3923,6 +3938,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75a620bf5844eb44e94afdf69f767e24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  OnDestroyCoin:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1990767800}
+        m_MethodName: AddFunds
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: CoinEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
 --- !u!43 &1983432890
 Mesh:
   m_ObjectHideFlags: 0
@@ -4116,7 +4146,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh17376
+  m_Name: pb_Mesh12864
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
