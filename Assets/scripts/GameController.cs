@@ -1,16 +1,27 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
+	public int funds = 1000;
+
+	public Text fundsText;
+	
+	private void Start () {
+		UpdateText();
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
+	private void UpdateText() {
+		fundsText.text = "£" + (funds / 100.0).ToString("F2");
+	}
+
+	public void SpendFunds() {
+		funds -= 10;
+	}
+
+	public void AddFunds() {
+		funds += 10;
 	}
 }
