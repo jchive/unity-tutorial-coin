@@ -10,6 +10,8 @@ public class SpawnerController : MonoBehaviour {
 
 	public CoinEvent OnSpawnCoin = new CoinEvent();
 
+	public bool spawnerBlocked = false;
+
 	// Use this for initialization
 	void Start () {
 	}
@@ -24,12 +26,20 @@ public class SpawnerController : MonoBehaviour {
 	}
 	
 	void SpawnObject() {
-		var coin = Instantiate(ObjectToSpawn, transform);
-		coin.transform.position = SpawnLocation.position;
-		coin.transform.rotation = SpawnLocation.rotation;
-		
-		OnSpawnCoin.Invoke();
+		if (!spawnerBlocked) {
+			var coin = Instantiate(ObjectToSpawn, transform);
+			coin.transform.position = SpawnLocation.position;
+			coin.transform.rotation = SpawnLocation.rotation;
+
+			OnSpawnCoin.Invoke();
+		}
 	}
+
+	public void SetSpawnerBlocked(bool value) {
+		spawnerBlocked = value;
+	}
+
+	
 
 }
 
