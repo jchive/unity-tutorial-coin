@@ -26,6 +26,7 @@ public class SpawnerController : MonoBehaviour {
 	void SpawnObject() {
 		var coin = Instantiate(ObjectToSpawn, transform);
 		coin.transform.position = SpawnLocation.position;
+		coin.transform.rotation = SpawnLocation.rotation;
 		
 		OnSpawnCoin.Invoke();
 	}
