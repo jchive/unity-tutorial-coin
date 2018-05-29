@@ -1624,6 +1624,10 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1238894170}
+    - target: {fileID: 1177028354067668, guid: 92bcf3d40a56e82419ecb45f1f9b52bf, type: 2}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 92bcf3d40a56e82419ecb45f1f9b52bf, type: 2}
   m_IsPrefabParent: 0
@@ -2718,7 +2722,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh12764
+  m_Name: pb_Mesh12766
   serializedVersion: 8
   m_SubMeshes:
   - serializedVersion: 2
@@ -3017,29 +3021,14 @@ GameObject:
   - component: {fileID: 1267917308}
   - component: {fileID: 1267917307}
   - component: {fileID: 1267917306}
-  - component: {fileID: 1267917305}
   - component: {fileID: 1267917311}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: InitialCoinSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!64 &1267917305
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1267917304}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 1264884711}
 --- !u!114 &1267917306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5283,9 +5272,17 @@ MonoBehaviour:
     areaError: 15
   asset_guid: 
   dontDestroyMeshOnDelete: 0
-  m_selectedFaces: 
-  m_SelectedEdges: []
-  m_selectedTriangles: 
+  m_selectedFaces: 00000000
+  m_SelectedEdges:
+  - x: 0
+    y: 1
+  - x: 2
+    y: 0
+  - x: 1
+    y: 3
+  - x: 3
+    y: 2
+  m_selectedTriangles: 000000000100000002000000010000000300000002000000
 --- !u!33 &1866982757
 MeshFilter:
   m_ObjectHideFlags: 0
