@@ -29,6 +29,7 @@ public class InitialCoinSpawner : MonoBehaviour {
 
             temporarySpawn = Instantiate(spawnObject, spawnContainer);
             temporarySpawn.transform.position = position;
+            temporarySpawn.transform.rotation = Random.rotation;
         }
     }
 }
